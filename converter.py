@@ -3,8 +3,8 @@ from pytubefix.cli import on_progress
 from pydub import AudioSegment
 import os
 
-url = "https://youtu.be/DzLv6W4aYlA?si=_KfLhWuMaoNE79_h"
-directory = "C:/Users/A S U S/OneDrive/Music/Playlists" 
+url = "Your_Url_Video"
+directory = "The_Path_You_Want_to_Put_the_file" 
 
 yt = YouTube(url, on_progress_callback=on_progress)
 print(yt.title)
